@@ -13,25 +13,17 @@ class CountriesTableSeeder extends Seeder
     {
 
         DB::table('countries')->insert(array(
-            array("sortname" => "AF", "name" => "Afghanistan"),
-            array("sortname" => "AL", "name" => "Albania"),
-            array("sortname" => "DZ", "name" => "Algeria"),
-            array("sortname" => "AS", "name" => "American Samoa"),
-            array("sortname" => "AD", "name" => "Andorra"),
-            array(  //"6",
-                "sortname" => "AO","name" => "Angola"),
-            array(  //"7",
-                "sortname" => "AI", "name" => "Anguilla"),
-            array(  //"8",
-                "sortname" => "AQ", "name" => "Antarctica"),
-            array(  //"9",
-                "sortname" => "AG", "name" => "Antigua And Barbuda"),
-            array(  //"10",
-                "sortname" => "AR", "name" => "Argentina"),
-            array(  //"11",
-                "sortname" => "AM",
-                "name" => "Armenia"
-            ),
+            array("sortname" => "AF", "name" => "Afghanistan"),//1
+            array("sortname" => "AL", "name" => "Albania"),//2
+            array("sortname" => "DZ", "name" => "Algeria"), //3
+            array("sortname" => "AS", "name" => "American Samoa"), //4
+            array("sortname" => "AD", "name" => "Andorra"),//5
+            array("sortname" => "AO","name" => "Angola"), //6
+            array("sortname" => "AI", "name" => "Anguilla"),//7
+            array("sortname" => "AQ", "name" => "Antarctica"),//8
+            array("sortname" => "AG", "name" => "Antigua And Barbuda"),//9
+            array("sortname" => "AR", "name" => "Argentina"),//10
+            array("sortname" => "AM", "name" => "Armenia"),//11
             array(  //"12",
                 "sortname" => "AW",
                 "name" => "Aruba"
@@ -2172,166 +2164,16 @@ class CountriesTableSeeder extends Seeder
                 "name" =>"Aruba",
                 "country_id" =>"12"
             ),
-            array(
-                //"245",
-                "name" =>"Auckland",
-                "country_id" =>"13"
-            ),
-            array(
-                //"246",
-                "name" =>"Australian Capital Territory",
-                "country_id" =>"13"
-            ),
-            array(
-                //"247",
-                "name" =>"Balgowlah",
-                "country_id" =>"13"
-            ),
-            array(
-                //"248",
-                "name" =>"Balmain",
-                "country_id" =>"13"
-            ),
-            array(
-                //"249",
-                "name" =>"Bankstown",
-                "country_id" =>"13"
-            ),
-            array(
-                //"250",
-                "name" =>"Baulkham Hills",
-                "country_id" =>"13"
-            ),
-            array(
-                //"251",
-                "name" =>"Bonnet Bay",
-                "country_id" =>"13"
-            ),
-            array(
-                //"252",
-                "name" =>"Camberwell",
-                "country_id" =>"13"
-            ),
-            array(
-                //"253",
-                "name" =>"Carole Park",
-                "country_id" =>"13"
-            ),
-            array(
-                //"254",
-                "name" =>"Castle Hill",
-                "country_id" =>"13"
-            ),
-            array(
-                //"255",
-                "name" =>"Caulfield",
-                "country_id" =>"13"
-            ),
-            array(
-                //"256",
-                "name" =>"Chatswood",
-                "country_id" =>"13"
-            ),
-            array(
-                //"257",
-                "name" =>"Cheltenham",
-                "country_id" =>"13"
-            ),
-            array(
-                //"258",
-                "name" =>"Cherrybrook",
-                "country_id" =>"13"
-            ),
-            array(
-                //"259",
-                "name" =>"Clayton",
-                "country_id" =>"13"
-            ),
-            array(
-                //"260",
-                "name" =>"Collingwood",
-                "country_id" =>"13"
-            ),
-            array(
-                //"261",
-                "name" =>"Frenchs Forest",
-                "country_id" =>"13"
-            ),
-            array(
-                //"262",
-                "name" =>"Hawthorn",
-                "country_id" =>"13"
-            ),
-            array(
-                //"263",
-                "name" =>"Jannnali",
-                "country_id" =>"13"
-            ),
-            array(
-                //"264",
-                "name" =>"Knoxfield",
-                "country_id" =>"13"
-            ),
-            array(
-                //"265",
-                "name" =>"Melbourne",
-                "country_id" =>"13"
-            ),
-            array(
-                //"266",
-                "name" =>"New South Wales",
-                "country_id" =>"13"
-            ),
-            array(
-                //"267",
-                "name" =>"Northern Territory",
-                "country_id" =>"13"
-            ),
-            array(
-                //"268",
-                "name" =>"Perth",
-                "country_id" =>"13"
-            ),
-            array(
-                //"269",
-                "name" =>"Queensland",
-                "country_id" =>"13"
-            ),
-            array(
-                //"270",
-                "name" =>"South Australia",
-                "country_id" =>"13"
-            ),
-            array(
-                //"271",
-                "name" =>"Tasmania",
-                "country_id" =>"13"
-            ),
-            array(
-                //"272",
-                "name" =>"Templestowe",
-                "country_id" =>"13"
-            ),
-            array(
-                //"273",
-                "name" =>"Victoria",
-                "country_id" =>"13"
-            ),
-            array(
-                //"274",
-                "name" =>"Werribee south",
-                "country_id" =>"13"
-            ),
-            array(
-                //"275",
-                "name" =>"Western Australia",
-                "country_id" =>"13"
-            ),
-            array(
-                //"276",
-                "name" =>"Wheeler",
-                "country_id" =>"13"
-            ),
+            
+            array("name" =>"New South Wales", "country_id" =>"13"),//245
+            array("name" =>"Queensland", "country_id" =>"13"),//246
+            array("name" =>"South Australia", "country_id" =>"13"),//247
+            array("name" =>"Tasmania", "country_id" =>"13"),//248
+            array("name" =>"Victoria", "country_id" =>"13"),//249
+            array("name" =>"Western Australia", "country_id" =>"13"),//250
+			
+			//LOS IDS A PARTIR DE AQUI... NO SON LOS DE LOS COMENTARIOS
+			
             array(
                 //"277",
                 "name" =>"Bundesland Salzburg",
@@ -13179,18 +13021,8 @@ class CountriesTableSeeder extends Seeder
                 "country_id" =>"142"
             ),
             array(
-                //"2435",
-                "name" =>"Distrito Federal",
-                "country_id" =>"142"
-            ),
-            array(
                 //"2436",
                 "name" =>"Durango",
-                "country_id" =>"142"
-            ),
-            array(
-                //"2437",
-                "name" =>"Estado de México",
                 "country_id" =>"142"
             ),
             array(
@@ -13220,7 +13052,7 @@ class CountriesTableSeeder extends Seeder
             ),
             array(
                 //"2443",
-                "name" =>"Michoacan",
+                "name" =>"Michoacán",
                 "country_id" =>"142"
             ),
             array(
@@ -13235,7 +13067,7 @@ class CountriesTableSeeder extends Seeder
             ),
             array(
                 //"2446",
-                "name" =>"Nuevo Leon",
+                "name" =>"Nuevo León",
                 "country_id" =>"142"
             ),
             array(
@@ -13250,7 +13082,7 @@ class CountriesTableSeeder extends Seeder
             ),
             array(
                 //"2449",
-                "name" =>"Queretaro",
+                "name" =>"Querétaro",
                 "country_id" =>"142"
             ),
             array(
@@ -13260,7 +13092,7 @@ class CountriesTableSeeder extends Seeder
             ),
             array(
                 //"2451",
-                "name" =>"San Luis Potosi",
+                "name" =>"San Luis Potosí",
                 "country_id" =>"142"
             ),
             array(
