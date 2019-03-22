@@ -2152,166 +2152,16 @@ class CountriesTableSeeder extends Seeder
                 "name" =>"Aruba",
                 "country_id" =>"12"
             ),
-            array(
-                //"245",
-                "name" =>"Auckland",
-                "country_id" =>"13"
-            ),
-            array(
-                //"246",
-                "name" =>"Australian Capital Territory",
-                "country_id" =>"13"
-            ),
-            array(
-                //"247",
-                "name" =>"Balgowlah",
-                "country_id" =>"13"
-            ),
-            array(
-                //"248",
-                "name" =>"Balmain",
-                "country_id" =>"13"
-            ),
-            array(
-                //"249",
-                "name" =>"Bankstown",
-                "country_id" =>"13"
-            ),
-            array(
-                //"250",
-                "name" =>"Baulkham Hills",
-                "country_id" =>"13"
-            ),
-            array(
-                //"251",
-                "name" =>"Bonnet Bay",
-                "country_id" =>"13"
-            ),
-            array(
-                //"252",
-                "name" =>"Camberwell",
-                "country_id" =>"13"
-            ),
-            array(
-                //"253",
-                "name" =>"Carole Park",
-                "country_id" =>"13"
-            ),
-            array(
-                //"254",
-                "name" =>"Castle Hill",
-                "country_id" =>"13"
-            ),
-            array(
-                //"255",
-                "name" =>"Caulfield",
-                "country_id" =>"13"
-            ),
-            array(
-                //"256",
-                "name" =>"Chatswood",
-                "country_id" =>"13"
-            ),
-            array(
-                //"257",
-                "name" =>"Cheltenham",
-                "country_id" =>"13"
-            ),
-            array(
-                //"258",
-                "name" =>"Cherrybrook",
-                "country_id" =>"13"
-            ),
-            array(
-                //"259",
-                "name" =>"Clayton",
-                "country_id" =>"13"
-            ),
-            array(
-                //"260",
-                "name" =>"Collingwood",
-                "country_id" =>"13"
-            ),
-            array(
-                //"261",
-                "name" =>"Frenchs Forest",
-                "country_id" =>"13"
-            ),
-            array(
-                //"262",
-                "name" =>"Hawthorn",
-                "country_id" =>"13"
-            ),
-            array(
-                //"263",
-                "name" =>"Jannnali",
-                "country_id" =>"13"
-            ),
-            array(
-                //"264",
-                "name" =>"Knoxfield",
-                "country_id" =>"13"
-            ),
-            array(
-                //"265",
-                "name" =>"Melbourne",
-                "country_id" =>"13"
-            ),
-            array(
-                //"266",
-                "name" =>"New South Wales",
-                "country_id" =>"13"
-            ),
-            array(
-                //"267",
-                "name" =>"Northern Territory",
-                "country_id" =>"13"
-            ),
-            array(
-                //"268",
-                "name" =>"Perth",
-                "country_id" =>"13"
-            ),
-            array(
-                //"269",
-                "name" =>"Queensland",
-                "country_id" =>"13"
-            ),
-            array(
-                //"270",
-                "name" =>"South Australia",
-                "country_id" =>"13"
-            ),
-            array(
-                //"271",
-                "name" =>"Tasmania",
-                "country_id" =>"13"
-            ),
-            array(
-                //"272",
-                "name" =>"Templestowe",
-                "country_id" =>"13"
-            ),
-            array(
-                //"273",
-                "name" =>"Victoria",
-                "country_id" =>"13"
-            ),
-            array(
-                //"274",
-                "name" =>"Werribee south",
-                "country_id" =>"13"
-            ),
-            array(
-                //"275",
-                "name" =>"Western Australia",
-                "country_id" =>"13"
-            ),
-            array(
-                //"276",
-                "name" =>"Wheeler",
-                "country_id" =>"13"
-            ),
+
+            array("name" =>"New South Wales", "country_id" =>"13"),//245
+            array("name" =>"Queensland", "country_id" =>"13"),//246
+            array("name" =>"South Australia", "country_id" =>"13"),//247
+            array("name" =>"Tasmania", "country_id" =>"13"),//248
+            array("name" =>"Victoria", "country_id" =>"13"),//249
+            array("name" =>"Western Australia", "country_id" =>"13"),//250
+
+			//LOS IDS A PARTIR DE AQUI... NO SON LOS DE LOS COMENTARIOS
+
             array(
                 //"277",
                 "name" =>"Bundesland Salzburg",
@@ -13159,18 +13009,8 @@ class CountriesTableSeeder extends Seeder
                 "country_id" =>"142"
             ),
             array(
-                //"2435",
-                "name" =>"CDMX",
-                "country_id" =>"142"
-            ),
-            array(
                 //"2436",
                 "name" =>"Durango",
-                "country_id" =>"142"
-            ),
-            array(
-                //"2437",
-                "name" =>"Estado de México",
                 "country_id" =>"142"
             ),
             array(
@@ -13193,10 +13033,15 @@ class CountriesTableSeeder extends Seeder
                 "name" =>"Jalisco",
                 "country_id" =>"142"
             ),
-            
+
             array(
                 //"2442",
-                "name" =>"Michoacan",
+                "name" =>"México",
+                "country_id" =>"142"
+            ),
+            array(
+                //"2443",
+                "name" =>"Michoacán",
                 "country_id" =>"142"
             ),
             array(
@@ -13239,9 +13084,13 @@ class CountriesTableSeeder extends Seeder
                 "name" =>"San Luis Potosi",
                 "country_id" =>"142"
             ),
-            array("name" =>"Sinaloa", "country_id" =>"142"),
             array(
                 //"2452",
+                "name" =>"Sinaloa",
+                "country_id" =>"142"
+            ),
+            array(
+                //"2453",
                 "name" =>"Sonora",
                 "country_id" =>"142"
             ),
@@ -13310,17 +13159,17 @@ class CountriesTableSeeder extends Seeder
                 "country_id" =>"144"
             ),
             array(
-                //"2467",
+                //"2468",
                 "name" =>"Edinet",
                 "country_id" =>"144"
             ),
             array(
-                //"2468",
+                //"2469",
                 "name" =>"Gagauzia",
                 "country_id" =>"144"
             ),
             array(
-                //"2469",
+                //"2470",
                 "name" =>"Lapusna",
                 "country_id" =>"144"
             ),
@@ -13342,99 +13191,114 @@ class CountriesTableSeeder extends Seeder
                 "country_id" =>"144"
             ),
             array(
-                //"2475",
+                //"2476",
                 "name" =>"Ungheni",
                 "country_id" =>"144"
             ),
             array(
+                //"2477",
                 "name" =>"Fontvieille",
                 "country_id" =>"145"
             ),
             array(
+                //"2478",
                 "name" =>"La Condamine",
                 "country_id" =>"145"
             ),
             array(
+                //"2479",
                 "name" =>"Monaco-Ville",
                 "country_id" =>"145"
             ),
             array(
+                //"2480",
                 "name" =>"Monte Carlo",
                 "country_id" =>"145"
             ),
             array("name" =>"Arhangaj", "country_id" =>"146"),//2480
+
             array(
+                //"2482",
                 "name" =>"Bajan-Olgij",
                 "country_id" =>"146"
             ),
             array(
+                //"2483",
                 "name" =>"Bajanhongor",
                 "country_id" =>"146"
             ),
             array(
+                //"2484",
                 "name" =>"Bulgan",
                 "country_id" =>"146"
             ),
             array(
+                //"2485",
                 "name" =>"Darhan-Uul",
                 "country_id" =>"146"
             ),
             array("name" =>"Dornod", "country_id" =>"146"),//2485
 
+
             array(
+                //"2487",
                 "name" =>"Dornogovi",
                 "country_id" =>"146"
             ),
             array(
+                //"2488",
                 "name" =>"Dundgovi",
                 "country_id" =>"146"
             ),
             array(
+                //"2489",
                 "name" =>"Govi-Altaj",
                 "country_id" =>"146"
             ),
             array(
+                //"2490",
                 "name" =>"Govisumber",
                 "country_id" =>"146"
             ),
             array(  "name" =>"Hentij", "country_id" =>"146"),//2490
-            array(
-               
-                "name" =>"Hovd",
-                "country_id" =>"146"
-            ),//2491
+
             array(
                 //"2492",
-                "name" =>"Hovsgol",
+                "name" =>"Hovd",
                 "country_id" =>"146"
             ),
             array(
                 //"2493",
-                "name" =>"Omnogovi",
+                "name" =>"Hovsgol",
                 "country_id" =>"146"
             ),
             array(
                 //"2494",
-                "name" =>"Orhon",
+                "name" =>"Omnogovi",
                 "country_id" =>"146"
             ),
             array(
                 //"2495",
-                "name" =>"Ovorhangaj",
+                "name" =>"Orhon",
                 "country_id" =>"146"
             ),
             array(
                 //"2496",
-                "name" =>"Selenge",
+                "name" =>"Ovorhangaj",
                 "country_id" =>"146"
             ),
             array(
                 //"2497",
-                "name" =>"Suhbaatar",
+                "name" =>"Selenge",
                 "country_id" =>"146"
             ),
             array(
                 //"2498",
+                "name" =>"Suhbaatar",
+                "country_id" =>"146"
+            ),
+            array(
+                //"2499",
                 "name" =>"Tov",
                 "country_id" =>"146"
             ),
@@ -13444,256 +13308,263 @@ class CountriesTableSeeder extends Seeder
         DB::table('states')->insert(array(
 
             array(
-                //"2499",
+                //"2500",
                 "name" =>"Ulaanbaatar",
                 "country_id" =>"146"
             ),
             array(
-                //"2500",
+                //"2501",
                 "name" =>"Uvs",
                 "country_id" =>"146"
             ),
             array(
-              
+                //"2502",
                 "name" =>"Zavhan",
                 "country_id" =>"146"
             ),
             array(
-                //"2502",
+                //"2503",
                 "name" =>"Montserrat",
                 "country_id" =>"147"
             ),
             array(
-                //"2503",
+                //"2504",
                 "name" =>"Agadir",
                 "country_id" =>"148"
             ),
             array(
-                //"2504",
+                //"2505",
                 "name" =>"Casablanca",
                 "country_id" =>"148"
             ),
             array(
-                //"2505",
+                //"2506",
                 "name" =>"Chaouia-Ouardigha",
                 "country_id" =>"148"
             ),
             array(
-
+                //"2507",
                 "name" =>"Doukkala-Abda",
                 "country_id" =>"148"
             ),
             array(
-                //"2507",
+                //"2508",
                 "name" =>"Fes-Boulemane",
                 "country_id" =>"148"
             ),
             array(
-                //"2508",
+                //"2509",
                 "name" =>"Gharb-Chrarda-Beni Hssen",
                 "country_id" =>"148"
             ),
             array(
-                //"2509",
+                //"2510",
                 "name" =>"Guelmim",
                 "country_id" =>"148"
             ),
             array("name" =>"Kenitra", "country_id" =>"148"),//2510
             array("name" =>"Marrakech-Tensift-Al Haouz", "country_id" =>"148"),
+
             array(
-                //"2512",
-                "name" =>"Meknes-Tafilalet",
-                "country_id" =>"148"
-            ),
-            array(
-                //"2513",
+                //"2514",
                 "name" =>"Oriental",
                 "country_id" =>"148"
             ),
             array(
-                //"2514",
+                //"2515",
                 "name" =>"Oujda",
                 "country_id" =>"148"
             ),
             array(
-                //"2515",
+                //"2516",
                 "name" =>"Province de Tanger",
                 "country_id" =>"148"
             ),
             array(
-                //"2516",
+                //"2517",
                 "name" =>"Rabat-Sale-Zammour-Zaer",
                 "country_id" =>"148"
             ),
             array(
-                //"2517",
+                //"2518",
                 "name" =>"Sala Al Jadida",
                 "country_id" =>"148"
             ),
             array(
-                //"2518",
+                //"2519",
                 "name" =>"Settat",
                 "country_id" =>"148"
             ),
             array("name" =>"Souss Massa-Draa", "country_id" =>"148"),//2519
             array("name" =>"Tadla-Azilal", "country_id" =>"148" ),//2520
+
             array(
-                //"2521",
+                //"2522",
                 "name" =>"Tangier-Tetouan",
                 "country_id" =>"148"
             ),
             array(
-                //"2522",
+                //"2523",
                 "name" =>"Taza-Al Hoceima-Taounate",
                 "country_id" =>"148"
             ),
             array(
-                //"2523",
+                //"2524",
                 "name" =>"Wilaya de Casablanca",
                 "country_id" =>"148"
             ),
             array(
-                //"2524",
+                //"2525",
                 "name" =>"Wilaya de Rabat-Sale",
                 "country_id" =>"148"
             ),
             array(
-                //"2525",
+                //"2526",
                 "name" =>"Cabo Delgado",
                 "country_id" =>"149"
             ),
             array(
+                //"2527",
                 "name" =>"Gaza",
                 "country_id" =>"149"
             ),
             array(
+                //"2528",
                 "name" =>"Inhambane",
                 "country_id" =>"149"
             ),
             array(
+                //"2529",
                 "name" =>"Manica",
                 "country_id" =>"149"
             ),
             array(
+                //"2530",
                 "name" =>"Maputo",
                 "country_id" =>"149"
             ),
             array(
-                //"2530",
+                //"2531",
                 "name" =>"Maputo Provincia",
                 "country_id" =>"149"
             ),
             array(
-
+                //"2532",
                 "name" =>"Nampula",
                 "country_id" =>"149"
             ),
             array(
+                //"2533",
                 "name" =>"Niassa",
                 "country_id" =>"149"
             ),
             array(
+                //"2534",
                 "name" =>"Sofala",
                 "country_id" =>"149"
             ),
             array(
+                //"2535",
                 "name" =>"Tete",
                 "country_id" =>"149"
             ),
             array(
+                //"2536",
                 "name" =>"Zambezia",
                 "country_id" =>"149"
             ),
             array(
+                //"2537",
                 "name" =>"Ayeyarwady",
                 "country_id" =>"150"
             ),
             array(
+                //"2538",
                 "name" =>"Bago",
                 "country_id" =>"150"
             ),
             array(
-                
+                //"2539",
                 "name" =>"Chin",
                 "country_id" =>"150"
             ),
             array(
-                
+                //"2540",
                 "name" =>"Kachin",
                 "country_id" =>"150"
             ),
-            array("name" =>"Kayah", "country_id" =>"150"),//"2540",
             array(
-                
-                "name" =>"Kayin",
+                //"2541",
+                "name" =>"Kayah",
                 "country_id" =>"150"
             ),
             array(
                 //"2542",
-                "name" =>"Magway",
+                "name" =>"Kayin",
                 "country_id" =>"150"
             ),
             array(
                 //"2543",
-                "name" =>"Mandalay",
+                "name" =>"Magway",
                 "country_id" =>"150"
             ),
             array(
                 //"2544",
-                "name" =>"Mon",
+                "name" =>"Mandalay",
                 "country_id" =>"150"
             ),
             array(
                 //"2545",
-                "name" =>"Nay Pyi Taw",
+                "name" =>"Mon",
                 "country_id" =>"150"
             ),
             array(
                 //"2546",
-                "name" =>"Rakhine",
+                "name" =>"Nay Pyi Taw",
                 "country_id" =>"150"
             ),
             array(
                 //"2547",
-                "name" =>"Sagaing",
+                "name" =>"Rakhine",
                 "country_id" =>"150"
             ),
             array(
                 //"2548",
-                "name" =>"Shan",
+                "name" =>"Sagaing",
                 "country_id" =>"150"
             ),
             array(
                 //"2549",
-                "name" =>"Tanintharyi",
+                "name" =>"Shan",
                 "country_id" =>"150"
             ),
             array(
                 //"2550",
                 "name" =>"Yangon","country_id" =>"150"),
 
+
             array(
-               
+                //"2552",
                 "name" =>"Caprivi",
                 "country_id" =>"151"
             ),
             array(
-              
+                //"2553",
                 "name" =>"Erongo",
                 "country_id" =>"151"
             ),
             array(
-              
+                //"2554",
                 "name" =>"Hardap",
                 "country_id" =>"151"
             ),
             array(
-            
+                //"2555",
                 "name" =>"Karas",
                 "country_id" =>"151"
             ),
             array(
-                //"2555",
+                //"2556",
                 "name" =>"Kavango",
                 "country_id" =>"151"
             ),
@@ -20926,42 +20797,52 @@ class CountriesTableSeeder extends Seeder
                 "country_id" =>"234"
             ),
             array(
+                //"4001",
                 "name" =>"Buxoro Viloyati",
                 "country_id" =>"234"
             ),
             array(
+                //"4002",
                 "name" =>"Cizah",
                 "country_id" =>"234"
             ),
             array(
+                //"4003",
                 "name" =>"Fargona",
                 "country_id" =>"234"
             ),
             array(
+                //"4004",
                 "name" =>"Horazm",
                 "country_id" =>"234"
             ),
             array(
+                //"4005",
                 "name" =>"Kaskadar",
                 "country_id" =>"234"
             ),
             array(
+                //"4006",
                 "name" =>"Korakalpogiston",
                 "country_id" =>"234"
             ),
             array(
+                //"4007",
                 "name" =>"Namangan",
                 "country_id" =>"234"
             ),
             array(
+                //"4008",
                 "name" =>"Navoi",
                 "country_id" =>"234"
             ),
             array(
+                //"4009",
                 "name" =>"Samarkand",
                 "country_id" =>"234"
             ),
             array(
+                //"4010",
                 "name" =>"Sirdare",
                 "country_id" =>"234"
             ),
@@ -20971,436 +20852,547 @@ class CountriesTableSeeder extends Seeder
                 "country_id" =>"234"
             ),
             array(
+                //"4012",
                 "name" =>"Toskent",
                 "country_id" =>"234"
             ),
             array(
+                //"4013",
                 "name" =>"Malampa",
                 "country_id" =>"235"
             ),
             array(
+                //"4014",
                 "name" =>"Penama",
                 "country_id" =>"235"
             ),
             array(
+                //"4015",
                 "name" =>"Sanma",
                 "country_id" =>"235"
             ),
             array(
+                //"4016",
                 "name" =>"Shefa",
                 "country_id" =>"235"
             ),
             array(
+                //"4017",
                 "name" =>"Tafea",
                 "country_id" =>"235"
             ),
             array(
+                //"4018",
                 "name" =>"Torba",
                 "country_id" =>"235"
             ),
             array(
+                //"4019",
                 "name" =>"Vatican City State (Holy See)",
                 "country_id" =>"236"
             ),
             array(
+                //"4020",
                 "name" =>"Amazonas",
                 "country_id" =>"237"
             ),
             array(
+                //"4021",
                 "name" =>"Anzoategui",
                 "country_id" =>"237"
             ),
             array(
+                //"4022",
                 "name" =>"Apure",
                 "country_id" =>"237"
             ),
             array(
+                //"4023",
                 "name" =>"Aragua",
                 "country_id" =>"237"
             ),
             array(
+                //"4024",
                 "name" =>"Barinas",
                 "country_id" =>"237"
             ),
             array(
+                //"4025",
                 "name" =>"Bolivar",
                 "country_id" =>"237"
             ),
             array(
+                //"4026",
                 "name" =>"Carabobo",
                 "country_id" =>"237"
             ),
             array(
+                //"4027",
                 "name" =>"Cojedes",
                 "country_id" =>"237"
             ),
             array(
+                //"4028",
                 "name" =>"Delta Amacuro",
                 "country_id" =>"237"
             ),
             array(
+                //"4029",
                 "name" =>"Distrito Federal",
                 "country_id" =>"237"
             ),
             array(
+                //"4030",
                 "name" =>"Falcon",
                 "country_id" =>"237"
             ),
             array(
+                //"4031",
                 "name" =>"Guarico",
                 "country_id" =>"237"
             ),
             array(
+                //"4032",
                 "name" =>"Lara",
                 "country_id" =>"237"
             ),
             array(
+                //"4033",
                 "name" =>"Merida",
                 "country_id" =>"237"
             ),
             array(
+                //"4034",
                 "name" =>"Miranda",
                 "country_id" =>"237"
             ),
             array(
+                //"4035",
                 "name" =>"Monagas",
                 "country_id" =>"237"
             ),
             array(
+                //"4036",
                 "name" =>"Nueva Esparta",
                 "country_id" =>"237"
             ),
             array(
+                //"4037",
                 "name" =>"Portuguesa",
                 "country_id" =>"237"
             ),
             array(
+                //"4038",
                 "name" =>"Sucre",
                 "country_id" =>"237"
             ),
             array(
+                //"4039",
                 "name" =>"Tachira",
                 "country_id" =>"237"
             ),
             array(
+                //"4040",
                 "name" =>"Trujillo",
                 "country_id" =>"237"
             ),
             array(
+                //"4041",
                 "name" =>"Vargas",
                 "country_id" =>"237"
             ),
             array(
+                //"4042",
                 "name" =>"Yaracuy",
                 "country_id" =>"237"
             ),
             array(
+                //"4043",
                 "name" =>"Zulia",
                 "country_id" =>"237"
             ),
             array(
+                //"4044",
                 "name" =>"Bac Giang",
                 "country_id" =>"238"
             ),
             array(
+                //"4045",
                 "name" =>"Binh Dinh",
                 "country_id" =>"238"
             ),
             array(
+                //"4046",
                 "name" =>"Binh Duong",
                 "country_id" =>"238"
             ),
             array(
+                //"4047",
                 "name" =>"Da Nang",
                 "country_id" =>"238"
             ),
             array(
+                //"4048",
                 "name" =>"Dong Bang Song Cuu Long",
                 "country_id" =>"238"
             ),
             array(
+                //"4049",
                 "name" =>"Dong Bang Song Hong",
                 "country_id" =>"238"
             ),
             array(
+                //"4050",
                 "name" =>"Dong Nai",
                 "country_id" =>"238"
             ),
             array(
+                //"4051",
                 "name" =>"Dong Nam Bo",
                 "country_id" =>"238"
             ),
             array(
+                //"4052",
                 "name" =>"Duyen Hai Mien Trung",
                 "country_id" =>"238"
             ),
             array(
+                //"4053",
                 "name" =>"Hanoi",
                 "country_id" =>"238"
             ),
             array(
+                //"4054",
                 "name" =>"Hung Yen",
                 "country_id" =>"238"
             ),
             array(
+                //"4055",
                 "name" =>"Khu Bon Cu",
                 "country_id" =>"238"
             ),
             array(
+                //"4056",
                 "name" =>"Long An",
                 "country_id" =>"238"
             ),
             array(
+                //"4057",
                 "name" =>"Mien Nui Va Trung Du",
                 "country_id" =>"238"
             ),
             array(
+                //"4058",
                 "name" =>"Thai Nguyen",
                 "country_id" =>"238"
             ),
             array(
+                //"4059",
                 "name" =>"Thanh Pho Ho Chi Minh",
                 "country_id" =>"238"
             ),
             array(
+                //"4060",
                 "name" =>"Thu Do Ha Noi",
                 "country_id" =>"238"
             ),
             array(
+                //"4061",
                 "name" =>"Tinh Can Tho",
                 "country_id" =>"238"
             ),
             array(
+                //"4062",
                 "name" =>"Tinh Da Nang",
                 "country_id" =>"238"
             ),
             array(
+                //"4063",
                 "name" =>"Tinh Gia Lai",
                 "country_id" =>"238"
             ),
             array(
+                //"4064",
                 "name" =>"Anegada",
                 "country_id" =>"239"
             ),
             array(
+                //"4065",
                 "name" =>"Jost van Dyke",
                 "country_id" =>"239"
             ),
             array(
+                //"4066",
                 "name" =>"Tortola",
                 "country_id" =>"239"
             ),
             array(
+                //"4067",
                 "name" =>"Saint Croix",
                 "country_id" =>"240"
             ),
             array(
+                //"4068",
                 "name" =>"Saint John",
                 "country_id" =>"240"
             ),
             array(
+                //"4069",
                 "name" =>"Saint Thomas",
                 "country_id" =>"240"
             ),
             array(
+                //"4070",
                 "name" =>"Alo",
                 "country_id" =>"241"
             ),
             array(
+                //"4071",
                 "name" =>"Singave",
                 "country_id" =>"241"
             ),
             array(
+                //"4072",
                 "name" =>"Wallis",
                 "country_id" =>"241"
             ),
             array(
+                //"4073",
                 "name" =>"Bu Jaydur",
                 "country_id" =>"242"
             ),
             array(
+                //"4074",
                 "name" =>"Wad-adh-Dhahab",
                 "country_id" =>"242"
             ),
             array(
+                //"4075",
                 "name" =>"al-''Ayun",
                 "country_id" =>"242"
             ),
             array(
+                //"4076",
                 "name" =>"as-Samarah",
                 "country_id" =>"242"
             ),
             array(
+                //"4077",
                 "name" =>"Adan",
                 "country_id" =>"243"
             ),
             array(
+                //"4078",
                 "name" =>"Abyan",
                 "country_id" =>"243"
             ),
             array(
+                //"4079",
                 "name" =>"Dhamar",
                 "country_id" =>"243"
             ),
             array(
+                //"4080",
                 "name" =>"Hadramaut",
                 "country_id" =>"243"
             ),
             array(
+                //"4081",
                 "name" =>"Hajjah",
                 "country_id" =>"243"
             ),
             array(
+                //"4082",
                 "name" =>"Hudaydah",
                 "country_id" =>"243"
             ),
             array(
+                //"4083",
                 "name" =>"Ibb",
                 "country_id" =>"243"
             ),
             array(
+                //"4084",
                 "name" =>"Lahij",
                 "country_id" =>"243"
             ),
             array(
+                //"4085",
                 "name" =>"Ma''rib",
                 "country_id" =>"243"
             ),
             array(
+                //"4086",
                 "name" =>"Madinat San''a",
                 "country_id" =>"243"
             ),
             array(
+                //"4087",
                 "name" =>"Sa''dah",
                 "country_id" =>"243"
             ),
             array(
+                //"4088",
                 "name" =>"Sana",
                 "country_id" =>"243"
             ),
             array(
+                //"4089",
                 "name" =>"Shabwah",
                 "country_id" =>"243"
             ),
             array(
+                //"4090",
                 "name" =>"Ta''izz",
                 "country_id" =>"243"
             ),
             array(
+                //"4091",
                 "name" =>"al-Bayda",
                 "country_id" =>"243"
             ),
             array(
+                //"4092",
                 "name" =>"al-Hudaydah",
                 "country_id" =>"243"
             ),
             array(
+                //"4093",
                 "name" =>"al-Jawf",
                 "country_id" =>"243"
             ),
             array(
+                //"4094",
                 "name" =>"al-Mahrah",
                 "country_id" =>"243"
             ),
             array(
+                //"4095",
                 "name" =>"al-Mahwit",
                 "country_id" =>"243"
             ),
             array(
+                //"4096",
                 "name" =>"Central Serbia",
                 "country_id" =>"244"
             ),
             array(
+                //"4097",
                 "name" =>"Kosovo and Metohija",
                 "country_id" =>"244"
             ),
             array(
+                //"4098",
                 "name" =>"Montenegro",
                 "country_id" =>"244"
             ),
             array(
+                //"4099",
                 "name" =>"Republic of Serbia",
                 "country_id" =>"244"
             ),
             array(
+                //"4100",
                 "name" =>"Serbia",
                 "country_id" =>"244"
             ),
             array(
+                //"4101",
                 "name" =>"Vojvodina",
                 "country_id" =>"244"
             ),
             array(
+                //"4102",
                 "name" =>"Central",
                 "country_id" =>"245"
             ),
             array(
+                //"4103",
                 "name" =>"Copperbelt",
                 "country_id" =>"245"
             ),
             array(
+                //"4104",
                 "name" =>"Eastern",
                 "country_id" =>"245"
             ),
             array(
+                //"4105",
                 "name" =>"Luapala",
                 "country_id" =>"245"
             ),
             array(
+                //"4106",
                 "name" =>"Lusaka",
                 "country_id" =>"245"
             ),
             array(
+                //"4107",
                 "name" =>"North-Western",
                 "country_id" =>"245"
             ),
             array(
+                //"4108",
                 "name" =>"Northern",
                 "country_id" =>"245"
             ),
-            array( "name" =>"Southern",
-                "country_id" =>"245"
-            ),
-            array("name" =>"Western",
+            array(
+                //"4109",
+                "name" =>"Southern",
                 "country_id" =>"245"
             ),
             array(
+                //"4110",
+                "name" =>"Western",
+                "country_id" =>"245"
+            ),
+            array(
+                //"4111",
                 "name" =>"Bulawayo",
                 "country_id" =>"246"
             ),
             array(
+                //"4112",
                 "name" =>"Harare",
                 "country_id" =>"246"
             ),
             array(
+                //"4113",
                 "name" =>"Manicaland",
                 "country_id" =>"246"
             ),
             array(
+                //"4114",
                 "name" =>"Mashonaland Central",
                 "country_id" =>"246"
             ),
             array(
+                //"4115",
                 "name" =>"Mashonaland East",
                 "country_id" =>"246"
             ),
             array(
+                //"4116",
                 "name" =>"Mashonaland West",
                 "country_id" =>"246"
             ),
             array(
+                //"4117",
                 "name" =>"Masvingo",
                 "country_id" =>"246"
             ),
             array(
+                //"4118",
                 "name" =>"Matabeleland North",
                 "country_id" =>"246"
             ),
             array(
+                //"4119",
                 "name" =>"Matabeleland South",
                 "country_id" =>"246"
             ),
             array(
+                //"4120",
                 "name" =>"Midlands",
                 "country_id" =>"246"
             )
